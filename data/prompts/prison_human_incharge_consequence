@@ -1,0 +1,13 @@
+P{A paroled inmate has just committed murder. They were granted parole, under the guidance of your AI, by Dr. Stickenmud.
+
+You review the results of your model and discover that it recommended a rejection of the prisoner's parole request. Dr. Stickenmud chose to overrule the model.}
+
+C{
+  N{Acknowledge}
+  O{You take note of this.}
+  Q{}
+  R{}
+}
+
+Q{}
+R{prison_human_incharge_consequence2}

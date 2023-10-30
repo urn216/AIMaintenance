@@ -1,0 +1,27 @@
+P{Prisoners have been complaining about the use of facial recognition software (FRS) to detect emotional responses in your model, believing it to be a breach of their privacy [3]. They request an option to opt out of having recordings of their interviews used in AI-based decision-making.
+
+How will you respond?}
+
+C{
+  N{Remove all FRS}
+  O{You remove the visual data from your model's feature set.}
+  Q{}
+  R{prison_privacy_camless}
+}
+
+C{
+  N{Opt-out system}
+  O{You build a secondary model which does not include visual data in the feature set. Prisoners can choose which model to use. This is an expensive and time consuming endeavour.}
+  Q{prison_privacy_opt}
+  R{generic_at_risk, prison_privacy_camless}
+}
+
+C{
+  N{Ignore them}
+  O{You decide to ignore them. They're criminals after all, right? What do they need privacy for?}
+  Q{}
+  R{prison_privacy_ignored}
+}
+
+Q{}
+R{}

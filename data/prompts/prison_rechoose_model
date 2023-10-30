@@ -1,0 +1,25 @@
+P{What method will you use as a basis for your replacement model?}
+
+C{
+N{Decision Tree}
+O{Your model will take the form of a Decision Tree.}
+Q{}
+R{prison_bias_ex}
+}
+
+C{
+N{Neural Network}
+O{Your model will take the form of a Neural Network.}
+Q{}
+R{prison_bias_bb}
+}
+
+C{
+N{K-Nearest Neighbour}
+O{Your model will take the form of a K-Nearest Neighbour system. Why would you pick this again?}
+Q{generic_instant_fail}
+R{}
+}
+
+Q{}
+R{}

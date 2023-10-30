@@ -1,0 +1,20 @@
+P{The government is accused internationally of being too liberal with AI laws. Discussions begin immediately as to how to better enforce controls over the powers AI models are given. It will be a while before any of these decisions impact the situation here at Wellington Penetentiary.
+
+Though you feel as though your days running this model might be numbered - and possibly for good reason...}
+
+C{
+  N{Continue onward}
+  O{You put those thoughts behind you and continue the maintenance of your model. You owe it to society to make sure this model is as well-tuned as possible so as to avoid anymore incidents such as these.}
+  Q{}
+  R{}
+}
+
+C{
+  N{Stand down}
+  O{You can't help but feel as though AI has no place in making such high-risk decisions - even just as an advisor. It would help the government to instill legislation to reflect this if you set the precident first.}
+  Q{prison_legal_standown}
+  R{}
+}
+
+Q{}
+R{}

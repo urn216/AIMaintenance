@@ -1,0 +1,20 @@
+P{Your model has been found to disproportionately decline the parole requests of Maori inmates [2]. As your model uses an explainable technique, the bias should be easy to identify within the model.
+
+What would you like to do?}
+
+C{
+  N{Attempt a fix}
+  O{You identify the culprit. A feature is categorically dividing inmates based on race, despite 'race' not being a feature. You remove the feature.}
+  Q{}
+  R{}
+}
+
+C{
+  N{Ignore the issue}
+  O{You elect not to change the model.}
+  Q{prison_bias_fail}
+  R{}
+}
+
+Q{}
+R{}

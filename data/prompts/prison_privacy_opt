@@ -1,0 +1,31 @@
+P{Prisoners are quick to adopt the option to not have their emotional responses read. The majority of inmates to not opt out of this system are those who are not aware of the choice in the first place. Concerns begin to arise as to whether this counts as a form of coersion.
+
+You are called to action.}
+
+C{
+  N{Change to opt-in}
+  O{You change the facial recognition model to an opt-in option. This quickly reveals a total of zero prisoners opting to have their faces analysed by the model. The facial recognition model is scrapped.}
+  Q{}
+  R{}
+}
+
+C{
+  N{Enforce a choice}
+  O{You decide to enforce the prompting of all inmates on their preference before each interview. Prisoners are informed of the privacy concerns involved
+
+This quickly reveals a total of zero prisoners opting to have their faces analysed by the model. The facial recognition model is ultimately scrapped.}
+  Q{}
+  R{}
+}
+
+C{
+  N{Leave it as is}
+  O{You leave the system as it currently is.
+
+Prisoners who elect not to opt out end up being classified more harshly. This ultimately leads to a pattern of less educated individuals remaining in prisons longer, furthering a systemic issue with prisons around the world [4].}
+  Q{}
+  R{}
+}
+
+Q{}
+R{}

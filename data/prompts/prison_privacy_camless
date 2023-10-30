@@ -1,0 +1,33 @@
+P{The lack of facial recognition software in your model has significantly reduced its performance. Prisoners using this model are being recommended for parole at a much higher rate than they were previously.
+
+How would you like to approach the issue?}
+
+C{
+  N{Reinstate cameras}
+  O{You decide to return to the previous model, using cameras for all inmates.
+
+The prisoners are outraged at this very public breach of privacy, resulting in a reignited media campaign against Wellington Penetentiary.
+
+Your employer decides to look into your decision to reinstate cameras after having just built an expensive new model without them.}
+  Q{generic_instant_fail}
+  R{}
+}
+
+C{
+  N{Use additional data}
+  O{You decide to make up for the loss in performance by using additional data about the prisoners - such as medical history and psychological reports throughout their lives. This spurs on another media outrage - though after seeing performance rise once again, your employer deems your decision ultimately necessary and defends your choices against the backlash.}
+  Q{}
+  R{}
+}
+
+C{
+  N{Let it be}
+  O{You elect to leave the model as it is currently. 
+
+The reduction in performance becomes noticeable as reoffending rates begin to climb over the next few months. It isn't long before people begin to look in your direction...}
+  Q{generic_past_fail}
+  R{}
+}
+
+Q{}
+R{}

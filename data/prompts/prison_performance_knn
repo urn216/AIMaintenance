@@ -1,0 +1,31 @@
+P{Your model is performing significantly worse than Wellington Penetentiary is comfortable with. Your choice of K-Nearest-Neighbour may be limiting the performance of your model.
+
+What would you like to do?}
+
+C{
+  N{Change underlying model}
+  O{You decide that K-Nearest-Neighbour models are unsuited for complicated tasks such as these, and that a change of model is necessary. You decide to rebuild from scratch, wasting months of work.}
+  Q{prison_rechoose_model}
+  R{generic_at_risk}
+}
+
+C{
+  N{Simplify feature set}
+  O{With a smaller feature-set, you know that K-Nearest-Neighbour models perform better as there is less potential interference from other dimensions with less correlation to the outcome.
+
+Unfortunately, parole decisions require many considerations and removing features hurts performance as much as it helps the knn model. You are unable to improve the performance in this way.}
+  Q{generic_instant_fail}
+  R{}
+}
+
+C{
+  N{Train new data}
+  O{You decide to include the past output data from your model as new training data in your knn model. 
+
+The performance worsens as the new training data is wildly inaccurate. This reinforces the bad classifications the model was making already.}
+  Q{generic_instant_fail}
+  R{}
+}
+
+Q{}
+R{}

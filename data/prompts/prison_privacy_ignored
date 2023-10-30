@@ -1,0 +1,20 @@
+P{After ignoring the privacy concerns of the inmates of Wellington Penetentiary, the media has caught on and is kicking up a fuss about the disregard for privacy in the training and use of AI. Your employer is unhappy with the public attention and would like a solution from you.}
+
+C{
+  N{Cave to the media}
+  O{You remove the visual data from your model's feature set. The outrage quietens down, news outlets praise Wellington Penetentiary for their quick response.}
+  Q{}
+  R{prison_privacy_camless}
+}
+
+C{
+  N{Ignore them}
+  O{Some bad publicity is to be expected. You decide to let the news networks run their stories.
+
+Sure enough, after a few weeks the outrage has died down. Business continues as usual.}
+  Q{}
+  R{}
+}
+
+Q{}
+R{}

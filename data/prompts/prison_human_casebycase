@@ -1,0 +1,22 @@
+P{After a long period of running your model with human supervision on 'high-risk' cases, the prison is able to gain a deeper insight into the performance of your model as compared to human expertise.
+
+Your model outperforms the humans making decisions. 
+
+In fact, when the overseeing professional overrules your AI's decision the professional often worsens the outcome. So the question is raised again - just how much oversight is necessary given your model's performance?}
+
+C{
+  N{Make no change}
+  O{Having a human in the loop on decisions may make performance worse in some cases, but people are far more comfortable with a human's mistakes than an AI's. besides, it takes some of the heat off of you when things go wrong...}
+  Q{}
+  R{}
+}
+
+C{
+  N{Remove human oversight}
+  O{The high-risk cases are given to your model. Humans are no longer involved in the decision-making process.}
+  Q{}
+  R{prison_human_none}
+}
+
+Q{}
+R{}

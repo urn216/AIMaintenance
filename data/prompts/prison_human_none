@@ -1,0 +1,20 @@
+P{With no human oversight of your model, the public is growing concerned that prisoners may be granted parole by mistake when a human would have correctly identified some element a Machine-Learning model couldn't see [6]. People are afraid that dangerous killers may be getting released back into society.
+
+What is your response?}
+
+C{
+  N{Assert AI efficacy}
+  O{You assert that your model is at least as accurate as any human in the role. Outrage continues in the public for another few months before dying down again.}
+  Q{}
+  R{prison_human_jobloss}
+}
+
+C{
+  N{Vouch for oversight}
+  O{You decide that, after the growing concerns, a human to look over the decisions may not be a bad idea after all. A psychologist is put in place to monitor the decisions made by your AI.}
+  Q{}
+  R{}
+}
+
+Q{}
+R{}

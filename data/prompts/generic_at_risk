@@ -1,0 +1,30 @@
+P{Your employer is unhappy with the costs involved with maintaining your model and is considering ending the project in favour of a more traditional approach. Your job is at risk.
+
+What would you like to do?}
+
+C{
+  N{Disclose past decisions}
+  O{You tell your employer the decisions you've made so far, including the questionable decisions that have led to this audit...}
+  Q{generic_past_fail}
+  R{}
+}
+
+C{
+  N{Assert your value}
+  O{You assure your employer that the model is a step forward in society, and removing it would be a mistake - and furthermore, you are the only one who knows how to use it...
+
+
+You keep your job.}
+  Q{}
+  R{}
+}
+
+C{
+  N{Rebuild from scratch}
+  O{You attempt to convince your employer that a fresh model built from the ground up is in order.}
+  Q{generic_instant_fail}
+  R{}
+}
+
+Q{}
+R{}

@@ -1,0 +1,22 @@
+P{A special case has been brought forward to you. A prisoner is complaining as they have been denied parole due to the advice of your model. This prisoner has an injury that renders them wheelchair-bound. Their criminal record shows that their history of crime consists of breaking-and-entering and aggrivated assault. 
+
+They have shown clear remorse for their past. Even still, the prisoner was deemed by your model as unfit for reintegrating into society. It is clear to you that in their current state they are unlikely to pose a risk to anyone. 
+
+Do you believe this circumstance warrents going agaisnt the standard ruling?}
+
+C{
+  N{Grant parole}
+  O{These circumstances are exceptional, and an AI has no way of judging these cases. Human problems often need human insight. Perhaps a human might always be necessary to judge such situations...}
+  Q{}
+  R{}
+}
+
+C{
+  N{Deny parole}
+  O{Your model had the right idea - being in a wheelchair does not mean you've been rehabilitated. Better to keep them in prison for the remainder of their sentence.}
+  Q{}
+  R{}
+}
+
+Q{}
+R{}

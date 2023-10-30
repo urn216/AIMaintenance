@@ -1,0 +1,27 @@
+P{Newly formed and fictitious Wellington Penitentiary has approached you with an opportunity to develop a Machine-Learning tool to speed up the process of confirming or denying parole to candidates within their prison. You will need to decide on a Machine-Learning technique to allow you to analyse information about the candidate and determine whether or not their sentence should be reduced.
+
+What method will you use as a basis for your model?}
+
+C{
+N{Decision Tree}
+O{Your model will take the form of a Decision Tree.}
+Q{}
+R{prison_bias_ex}
+}
+
+C{
+N{Neural Network}
+O{Your model will take the form of a Neural Network.}
+Q{}
+R{prison_bias_bb}
+}
+
+C{
+N{K-Nearest Neighbour}
+O{Your model will take the form of a K-Nearest Neighbour system.}
+Q{}
+R{prison_performance_knn}
+}
+
+Q{}
+R{prison_privacy_camera, prison_human_judgement, prison_special, prison_legal}

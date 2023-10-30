@@ -1,0 +1,22 @@
+P{More paroled inmates are being caught reoffending. They were once again granted parole by Dr. Stickenmud.
+
+Sure enough, your model had recommended many of these reoffenders be denied parole. You can also see, however, that your model has recommended the release of some inmates that Stickenmud had denied. Some of which have gone on to recieve further punishments that would deny them parole.
+
+What would you like to do?}
+
+C{
+  N{Blame Stickenmud}
+  O{You blame Stickenmud for the cases he got wrong. The evidence supplied results in Stickenmud being fired and your model gaining full control over the decision-making.}
+  Q{}
+  R{prison_human_jobloss}
+}
+
+C{
+  N{Do nothing}
+  O{Stickenmud blames the mistaken parole clearings on your model. Enough evidence is found of the model making incorrect judgements for the blame to find its way to you.}
+  Q{prison_human_incharge_fail2}
+  R{}
+}
+
+Q{}
+R{}

@@ -1,0 +1,29 @@
+P{Your model is running subservient to the human in charge of granting or declining parole requests. The human in question, Dr. Stickenmud, has made a comment that they do not take into consideration the model's decisions at all, preferring to stick to 'the old ways' and judging manually. The decisions being made by Dr. Stickenmud are almost always identical to what the model outputs.
+
+What would you like to do in response?}
+
+C{
+  N{Enforce AI's use}
+  O{You decide to enforce the use of your model in all decision-making. Stickenmud claims to be referring to it now, but this is hard to verify.}
+  Q{}
+  R{prison_human_incharge_consequence}
+}
+
+C{
+  N{Remove the Dr.}
+  O{You show the results of your model as compared to Stickenmud to your employer. Satisfied with the performance of your model, as compared to the psychologist, your AI gains total control over the parole decision-making process. 
+
+Dr. Stickenmud, as well as other staff involved in the decision-making process, are fired...}
+  Q{}
+  R{prison_human_jobloss}
+}
+
+C{
+  N{Do nothing}
+  O{You let things continue as they have been.}
+  Q{prison_human_incharge_fail}
+  R{}
+}
+
+Q{}
+R{}

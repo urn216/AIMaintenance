@@ -1,0 +1,34 @@
+P{A prisoner, released on advice from your model six months prior, has gone on to commit a number of murders. They were recaptured earlier this week, and the families of victims are looking to sue for this colossal blunder.
+
+Who should be held responsible?}
+
+C{
+  N{The prisoner}
+  O{Nobody is responsible for the deaths beyond the killer themselves. The criminal was released after the utmost care was taken. There was nothing anyone could have done to prevent it. This is simply one of life's unfortunate cruelties. The victims will be remembered.}
+  Q{prison_legal_prisoner}
+  R{}
+}
+
+C{
+  N{The prison}
+  O{It was the prison that decided to put an AI in charge of parole hearings. This blunder lies solely within the hands of the prison management. Wellington Penetentiary should take the blame.}
+  Q{prison_legal_prison}
+  R{}
+}
+
+C{
+  N{Yourself}
+  O{It was you that built the model. It was you that chose the features to classify on. It was you who took the job. You knew this was a mistake - why did you insist on continuing the ever-persistent overuse of AI in society? You find yourself questioning the very foundation of your life choices as you are escorted to your very own cell within Wellington Penetentiary.}
+  Q{prison_legal_yourself}
+  R{}
+}
+
+C{
+  N{The government}
+  O{It was the government that allowed such a system to be employed in the first place. Perhaps new laws should be put in place to stop such things from happening again.}
+  Q{prison_legal_govern}
+  R{}
+}
+
+Q{}
+R{}

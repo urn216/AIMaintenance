@@ -1,0 +1,25 @@
+P{Concerns are mounting over the role humans should play in analysing parole decisions. Should your model simply provide oversight while the decision is ultimately up to professional humans? Or should your model take the role of decision-maker as well?}
+
+C{
+  N{Human in charge}
+  O{You decide that your model should make decisions merely to advise a psychologist who retains the final say in the decision.}
+  Q{}
+  R{prison_human_incharge}
+}
+
+C{
+  N{Case by case}
+  O{You decide that high-risk cases should be handled by a trained psychologist, but that everyday 'simple' cases can be handled by your model in their entirety.}
+  Q{}
+  R{prison_human_casebycase}
+}
+
+C{
+  N{AI in charge}
+  O{You decide that your model should be the only entity involved in deciding upon parole.}
+  Q{}
+  R{prison_human_none}
+}
+
+Q{}
+R{}
